@@ -23,7 +23,8 @@ return {
   },
   {'hrsh7th/cmp-path'},
   {'hrsh7th/cmp-buffer'},
-  {'rafamadriz/friendly-snippets'}
+  {'rafamadriz/friendly-snippets'},
+  { "Gelio/cmp-natdat", config = true }
 }
 
 
