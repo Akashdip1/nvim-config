@@ -19,7 +19,7 @@ require'lspconfig'.html.setup {
 require('lspconfig').pyright.setup({})
 
 -- pylsp
-lspconfig = require("lspconfig")
+--[[lspconfig = require("lspconfig")
 lspconfig.pylsp.setup {
 on_attach = custom_attach,
 settings = {
@@ -46,5 +46,6 @@ flags = {
     debounce_text_changes = 200,
 },
 capabilities = capabilities,
-}
+} ]]
+
 
